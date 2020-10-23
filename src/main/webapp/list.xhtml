@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <h:body>
+        <ui:composition template="./WEB-INF/templates/main.xhtml">
+            <ui:define name="content">
+                <h:form>
+                    <div class="content">
+                        <div class="listing">
+                            #{msgs['bookForm.infoBookText']}
+                            <div class="formContent">
+                                <section id="books">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h4>#{bookForm.book.title}</h4>
+                                                    </div>
+                                                    <table class="table table-striped">
+                                                        <thead class="thead-dark">
+                                                            <tr>
+                                                                <th>#</th>
+                                                                <th class="text-center">Title</th>
+                                                                <th class="text-center">Description</th>
+                                                                <th class="text-center">Cover</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>         
+                                                            <tr>
+                                                                <td>#{bookForm.book.id}</td>
+                                                                <td>#{bookForm.book.title}</td>
+                                                                <td>#{bookForm.book.description}</td>
+                                                                <td><img src="#{bookForm.book.image}" alt="" height="200"/></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h:commandLink action="index">#{msgs['bookForm.back']}</h:commandLink>
+                                </section>                                
+                            </div>
+                        </div>
+                    </div>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

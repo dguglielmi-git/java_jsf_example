@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+
+.header_dag {
+    background: linear-gradient(
+        to right,
+        rgba(50, 68, 112, 1) 2%,
+        rgba(43, 56, 89, 1) 15%,
+        rgba(57, 62, 73, 1) 75%
+        );
+    color:white;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #A19D9A;
+}
+
+#footer {
+    background: linear-gradient(
+        to right,
+        rgba(227, 120, 91, 1) 2%,
+        rgba(241, 104, 66, 1) 15%,
+        rgba(244, 49, 22, 1) 75%
+        );
+    color:white;
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    display:flex;
+    justify-content: center;
+}
+
+#page-bgtop {
+    padding: 20px 0px;
+}
+/* Content */
+
+#content {
+    float: left;
+    
+    padding: 0px 0px 0px 0px;
+}
+
+.titleMessage {
+    margin-top:15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    color: #50507C;
+    display: flex;
+    align-items: center;
+
+}
+
+.formContent {
+    display:flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listing {
+    margin-top:15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    color: #50507C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listing td {
+    font-size: 13px;
+    font-family: 'Rokkitt', serif;
+    font-weight: normal;
+}

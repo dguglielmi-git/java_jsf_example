@@ -15,7 +15,7 @@
             <default-locale>en</default-locale>
         </locale-config>
         <resource-bundle>
-            <base-name>mensajes</base-name>
+            <base-name>label</base-name>
             <var>msgs</var>
         </resource-bundle>
         <message-bundle>jsf</message-bundle>

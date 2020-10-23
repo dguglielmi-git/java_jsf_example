@@ -1,6 +1,9 @@
-beans\helper\ColoniaHelper.class
-beans\model\Colonia.class
-beans\backing\VacanteForm.class
-beans\configuracion\ConfigurationJSF.class
-beans\model\Candidato.class
+beans\model\Book.class
+beans\backing\bookForm.class
 beans\lifecycle\DebuggerListener.class
+beans\util\EntityManagerProvider.class
+beans\configuration\ConfigurationJSF.class
+beans\dao\GenericDao.class
+beans\helper\BookHelper.class
+beans\model\Book_.class
+beans\dao\BookDao.class

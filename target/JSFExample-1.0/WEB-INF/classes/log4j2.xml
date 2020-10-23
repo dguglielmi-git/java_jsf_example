@@ -11,7 +11,3 @@
         </Root>
     </Loggers>
 </Configuration>
-
-<!-- 
-    Configuracion de la API para Log4j para que podamos ver la información en la consola de GlassFish
--->
